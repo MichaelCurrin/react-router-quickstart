@@ -1,5 +1,5 @@
 # React Router Quickstart
-> Outline for a multi-page React app
+> Starter template and demo for a multi-page React app
 
 
 ## Background
@@ -20,3 +20,39 @@ If you are new to React Router, that docs site has some guides and examples to g
 ## Requirements
 
 - Yarn
+
+
+## Installation
+
+Install Yarn.
+
+Clone the repo.
+
+Install dependencies.
+
+```sh
+$ yarn install
+```
+
+
+## Usage
+
+### Start app
+
+```sh
+$ yarn start
+```
+
+### Deploy
+
+Production build to `build` directory.
+
+```sh
+$ yarn build
+```
+
+### Run tests
+
+```sh
+$ yarn test
+```

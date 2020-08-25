@@ -1,7 +1,7 @@
 {
   "name": "react-router-quickstart",
   "description": "Starter template and demo for a multi-page React app",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

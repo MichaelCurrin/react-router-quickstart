@@ -1,5 +1,5 @@
 # React Router Quickstart
-> Starter template and demo for a multi-page React app
+> Starter for a multi-page React app with nested routing and forms
 
 
 ## Background

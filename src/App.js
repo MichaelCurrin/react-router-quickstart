@@ -1,7 +1,12 @@
 import React from 'react';
+
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
 import logo from './logo.svg';
 import './App.css';
+import { Home } from './components/Home';
+import { About } from './components/About';
+import { Users } from './components/Users';
 
 export default function App() {
   return (
@@ -41,21 +46,4 @@ export default function App() {
       </div>
     </Router>
   );
-}
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-      <p>Content</p>
-    </div>
-  );
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }

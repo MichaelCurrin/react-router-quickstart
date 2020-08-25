@@ -1,10 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import logo from './logo.svg';
+import './App.css';
 
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1>Hello, world!</h1>
+          <p>Welcome to React Router Quickstart</p>
+        </header>
+
         <nav>
           <ul>
             <li>
@@ -36,7 +44,12 @@ export default function App() {
 }
 
 function Home() {
-  return <h2>Home</h2>;
+  return (
+    <div>
+      <h2>Home</h2>
+      <p>Content</p>
+    </div>
+  );
 }
 
 function About() {

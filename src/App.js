@@ -8,6 +8,7 @@ import { Home } from './components/Home';
 import { About } from './components/About';
 import { Users } from './components/Users';
 import { Topics } from './components/Topics';
+import { Forms } from './components/Forms';
 
 export default function App() {
   return (
@@ -33,6 +34,9 @@ export default function App() {
             <li>
               <Link to="/topics">Topics</Link>
             </li>
+            <li>
+              <Link to="/forms">Forms</Link>
+            </li>
           </ul>
         </nav>
 
@@ -46,6 +50,10 @@ export default function App() {
           <Route path="/topics">
             <Topics />
           </Route>
+          <Route path="/forms">
+            <Forms />
+          </Route>
+
           <Route path="/">
             <Home />
           </Route>

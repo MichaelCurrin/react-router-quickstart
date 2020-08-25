@@ -7,6 +7,7 @@ import './App.css';
 import { Home } from './components/Home';
 import { About } from './components/About';
 import { Users } from './components/Users';
+import { Topics } from './components/Topics';
 
 export default function App() {
   return (
@@ -29,6 +30,9 @@ export default function App() {
             <li>
               <Link to="/users">Users</Link>
             </li>
+            <li>
+              <Link to="/topics">Topics</Link>
+            </li>
           </ul>
         </nav>
 
@@ -38,6 +42,9 @@ export default function App() {
           </Route>
           <Route path="/users">
             <Users />
+          </Route>
+          <Route path="/topics">
+            <Topics />
           </Route>
           <Route path="/">
             <Home />

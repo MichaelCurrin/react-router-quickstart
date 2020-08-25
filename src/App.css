@@ -23,8 +23,27 @@
   color: white;
 }
 
-.App-link {
+.nav-item {
   color: #61dafb;
+}
+.nav-item:hover {
+  color: rgb(221, 217, 235);
+}
+
+li::after {
+  content: " ";
+  white-space: pre;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
 }
 
 @keyframes App-logo-spin {

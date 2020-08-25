@@ -18,27 +18,37 @@ export default function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <h1>Hello, world!</h1>
           <p>Welcome to React Router Quickstart</p>
-        </header>
 
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-            <li>
-              <Link to="/topics">Topics</Link>
-            </li>
-            <li>
-              <Link to="/forms">Forms</Link>
-            </li>
-          </ul>
-        </nav>
+          <nav className="navbar">
+            <ul className="nav-links">
+              <li>
+                <Link class="nav-item" to="/">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link class="nav-item" to="/about">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link class="nav-item" to="/users">
+                  Users
+                </Link>
+              </li>
+              <li>
+                <Link class="nav-item" to="/topics">
+                  Topics
+                </Link>
+              </li>
+              <li>
+                <Link class="nav-item" to="/forms">
+                  Forms
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
         <Switch>
           <Route path="/about">

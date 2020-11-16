@@ -10,6 +10,14 @@
 [![Made with React Router](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/react-router-quickstart/react-router-dom?logo=react)](https://www.npmjs.com/package/react-router-dom)
 
 
+## Use this project
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/react-router-quickstart/generate)
+
+</div>
+
 
 ## Background
 

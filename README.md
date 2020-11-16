@@ -75,6 +75,8 @@ $ yarn start
 
 ### Run tests
 
+Run tests in watch mode - only files that are changed are tested and the command stays running ready to rerun tests.
+
 ```sh
 $ yarn test
 ```

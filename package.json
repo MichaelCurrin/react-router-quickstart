@@ -1,7 +1,7 @@
 {
   "name": "react-router-quickstart",
   "description": "Starter for a multi-page React app with nested routing and forms",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",

@@ -1,14 +1,14 @@
 import React from 'react';
-
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-
-import logo from './logo.svg';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import './App.css';
-import { Home } from './components/Home';
 import { About } from './components/About';
-import { Users } from './components/Users';
-import { Topics } from './components/Topics';
 import { Forms } from './components/Forms';
+import { Home } from './components/Home';
+import { Topics } from './components/Topics';
+import { Users } from './components/Users';
+import logo from './logo.svg';
+
+
 
 export default function App() {
   return (
@@ -22,27 +22,27 @@ export default function App() {
           <nav className="navbar">
             <ul className="nav-links">
               <li>
-                <Link class="nav-item" to="/">
+                <Link className="nav-item" to="/">
                   Home
                 </Link>
               </li>
               <li>
-                <Link class="nav-item" to="/about">
+                <Link className="nav-item" to="/about">
                   About
                 </Link>
               </li>
               <li>
-                <Link class="nav-item" to="/users">
+                <Link className="nav-item" to="/users">
                   Users
                 </Link>
               </li>
               <li>
-                <Link class="nav-item" to="/topics">
+                <Link className="nav-item" to="/topics">
                   Topics
                 </Link>
               </li>
               <li>
-                <Link class="nav-item" to="/forms">
+                <Link className="nav-item" to="/forms">
                   Forms
                 </Link>
               </li>

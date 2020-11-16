@@ -25,13 +25,15 @@ This project was created using this guide:
 
 - [Quick Start](https://reactrouter.com/web/guides/quick-start) on the React Router site.
 
+If you are new to React Router, that docs site has some guides and examples to get you going.
+
+Here are the steps that were followed to make this project.
+
 ```sh
 $ npx create-react-app demo-app
 $ cd demo-app
 $ yarn add react-router-dom
 ```
-
-If you are new to React Router, that docs site has some guides and examples to get you going.
 
 See also [React Quickstart](https://github.com/MichaelCurrin/react-quickstart) template project, which does not use React Router.
 
@@ -63,16 +65,16 @@ $ yarn install
 $ yarn start
 ```
 
+### Run tests
+
+```sh
+$ yarn test
+```
+
 ### Deploy
 
 Production build to `build` directory.
 
 ```sh
 $ yarn build
-```
-
-### Run tests
-
-```sh
-$ yarn test
 ```

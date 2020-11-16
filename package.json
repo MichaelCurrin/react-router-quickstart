@@ -3,6 +3,7 @@
   "description": "Starter for a multi-page React app with nested routing and forms",
   "version": "0.3.0",
   "license": "MIT",
+  "author": "MichaelCurrin",
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",
@@ -20,6 +21,10 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelcurrin/react-router-quickstart.git"
   },
   "eslintConfig": {
     "extends": "react-app"

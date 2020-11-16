@@ -3,6 +3,14 @@
   "description": "Starter for a multi-page React app with nested routing and forms",
   "version": "0.2.0",
   "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "build": "react-scripts build",
+    "preversion": "git fetch --tags && yarn test",
+    "version": "yarn build",
+    "postversion": "git push --follow-tags"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -10,12 +18,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test"
+    "react-scripts": "^3.4.3"
   },
   "eslintConfig": {
     "extends": "react-app"

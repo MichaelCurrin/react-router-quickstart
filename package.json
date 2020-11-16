@@ -6,8 +6,9 @@
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",
+    "test-all": "react-scripts test --watchAll=false",
     "build": "react-scripts build",
-    "preversion": "git fetch --tags && react-scripts test --all",
+    "preversion": "git fetch --tags && yarn test-all",
     "version": "yarn build",
     "postversion": "git push --follow-tags"
   },

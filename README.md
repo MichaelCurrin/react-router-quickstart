@@ -27,9 +27,9 @@
 
 
 
-## Background
+## Create a fresh project
 
-This project was created using this guide:
+This project was created using this guide and you can follow the steps too to get the latest official app.
 
 - [Quick Start](https://reactrouter.com/web/guides/quick-start) on the React Router site.
 
@@ -43,7 +43,9 @@ $ cd demo-app
 $ yarn add react-router-dom
 ```
 
-See also [React Quickstart](https://github.com/MichaelCurrin/react-quickstart) template project, which does not use React Router.
+See also my other template project, which does not use React Router.
+
+- [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart)
 
 
 ## Requirements
@@ -58,7 +60,7 @@ Install Yarn.
 
 Clone the repo.
 
-Install dependencies.
+Install project packages:
 
 ```sh
 $ yarn install

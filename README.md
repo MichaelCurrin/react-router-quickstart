@@ -2,7 +2,7 @@
 > Starter for a multi-page React app with nested routing and forms
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/react-router-quickstart)](https://github.com/MichaelCurrin/react-router-quickstart/tags/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
 [![Made with Node](https://img.shields.io/badge/Node.js->=10-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Made with Yarn](https://img.shields.io/badge/Yarn->=1-blue?logo=yarn&logoColor=white)](https://classic.yarnpkg.com)
@@ -14,7 +14,7 @@
 
 <div align="center">
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/react-router-quickstart/generate)
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/react-router-quickstart/generate)
 
 </div>
 
@@ -88,3 +88,10 @@ Production build to `build` directory.
 ```sh
 $ yarn build
 ```
+
+
+## License
+
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
+
+This project is based on the template from the React CLI, with router added using the command covered above. I have added my own docs and made minimal app changes.
